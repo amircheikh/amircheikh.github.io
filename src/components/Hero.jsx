@@ -5,6 +5,7 @@ import { ComputersCanvas, StarsCanvas } from "./canvas";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { faFileText } from '@fortawesome/free-solid-svg-icons';
+import { resume } from "../assets";
 
 
 
@@ -20,7 +21,7 @@ const SocialMediaIcons = () => {
       <a href="https://www.youtube.com/channel/UCa7KC1wRWu-IS4OblRrBMVg" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faYoutube} className="text-white text-3xl" />
       </a>
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a href={resume} target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFileText} className="text-white text-3xl" />
       </a>
     </div>

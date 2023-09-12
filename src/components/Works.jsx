@@ -7,17 +7,23 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faYoutube, faUnity} from '@fortawesome/free-brands-svg-icons';
 import { faFileText } from '@fortawesome/free-solid-svg-icons';
 import Carousel from "./Carousel";
 import YouTube from 'react-youtube';
 
 const LinkIcons = ({
+unity_link,
 github_link,
 youtube_link
 }) => {
   return (
     <div className="flex gap-5 mt-4">
+      {unity_link &&
+      <a href={unity_link} target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faUnity} className="text-white text-3xl" />
+      </a>
+      }
       {github_link &&
       <a href={github_link} target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faGithub} className="text-white text-3xl" />
@@ -40,6 +46,7 @@ const ProjectCard = ({
   tags,
   image,
   slides,
+  unity_link,
   github_link,
   youtube_link
 }) => {
@@ -79,7 +86,7 @@ const ProjectCard = ({
           <div className="inset-0 flex card-img_hover rounded-xl">
 
             
-            <LinkIcons {...{github_link, youtube_link}}/>
+            <LinkIcons {...{unity_link, github_link, youtube_link}}/>
 
           </div>
           

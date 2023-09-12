@@ -19,6 +19,7 @@ import {
   oranda,
   sobeys,
   stompers,
+  uwindsor,
   tesla,
   shopify,
   aitexturegen1,
@@ -125,6 +126,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Teaching Assistant",
+    company_name: "University of Windsor",
+    icon: uwindsor,
+    iconBg: "#383E56",
+    date: "September 2023 - December 2023",
+    points: [
+      "Teaching assistant for COMP-1000 class (Key Concepts in Computer Science)",
+      "Assisted in labs to help students learn",
+      "Provided office hours for students",
+      "Marked assignemnts and exams"
+    ],
+  },
+  {
     title: "Frontend Clerk",
     company_name: "Sobeys",
     icon: sobeys,
@@ -197,7 +211,7 @@ const projects = [
   {
     name: "AI Texture Generator",
     description:
-      "A tool that uses OpenAI's DALL·E 2 to generate textures directly from the Unity Editor. All API calls are made directly in the editor and requires no outside software. The normal map, height map, and AO map for each texture is also generated, allowing for realistic looking textures.",
+      "A tool that uses OpenAI's DALL·E 2 to generate textures directly from the Unity Editor. All API calls are made directly in the editor and requires no outside software. The normal map, height map, and AO map for each texture is also generated, allowing for realistic looking textures. Available as a free download on the Unity Asset Store.",
     tags: [
       {
         name: "Unity",
@@ -219,6 +233,7 @@ const projects = [
       aitexturegen3,
       aitexturegen4,
     ],
+    unity_link: "https://assetstore.unity.com/packages/tools/generative-ai/amir-s-ai-texture-generator-258109",
     github_link: "https://github.com/amircheikh/Unity-AI-Texture-Generator",
     youtube_link: "https://youtu.be/j_V2LVeXV4k"
   },

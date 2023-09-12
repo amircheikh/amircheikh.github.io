@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 import sobeys from "./company/sobeys.png"
 import oranda from "./company/oranda.png"
 import stompers from "./company/stompers.png"
+import uwindsor from "./company/uwindsor.png"
 
 import aitexturegen1 from "./AI Texture Generator art.png";
 import aitexturegen2 from "./AI Texture SC1.png";
@@ -41,6 +42,8 @@ import gptunity4 from "./BunzelTown SC2.png";
 import gptunity5 from "./BunzelTown SC3.png";
 
 import aitts from "./AI TTS.png";
+
+import resume from "./resume.pdf"
 
 export {
   logo,
@@ -70,6 +73,7 @@ export {
   tesla,
   sobeys,
   oranda,
+  uwindsor,
   stompers,
   aitexturegen1,
   aitexturegen2,
@@ -81,4 +85,5 @@ export {
   gptunity4,
   gptunity5,
   aitts,
+  resume,
 };
