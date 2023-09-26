@@ -155,7 +155,7 @@ const experiences = [
     company_name: "Oranda",
     icon: oranda,
     iconBg: "#383E56",
-    date: "January 2023 - August 2023",
+    date: "December 2022 - April 2023",
     points: [
       "Developed backend of their AI NFT generator product",
       "Made the experience seamless with FastAPI",
