@@ -21,7 +21,7 @@ const SocialMediaIcons = () => {
       <a href="https://www.youtube.com/channel/UCa7KC1wRWu-IS4OblRrBMVg" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faYoutube} className="text-white text-3xl" />
       </a>
-      <a href={resume} target="_blank" rel="noopener noreferrer">
+      <a href={"https://resume.creddle.io/resume/9c8mpllqfcb"} target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFileText} className="text-white text-3xl" />
       </a>
     </div>
